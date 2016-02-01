@@ -5,13 +5,6 @@ $yellow: #ffff00;
 $blue: #0000ff;
 $black: #000000;
 
-// broken on purpose!
-// div {
-//   border: 2px solid yellow;
-//   color: black;
-//   background-color: blue;
-// }
-
 // not broken
 div {
   background-color: $blue;
