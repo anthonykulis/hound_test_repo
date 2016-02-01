@@ -14,3 +14,27 @@ module.exports =
 
   camelCaseTest: () ->
     false
+
+  debug: () ->
+    console.log 'what?'
+
+  tooComplex: ->
+    if true
+      if true
+        if true
+          if true
+            if true
+              if true
+                res.json({its_true: true})
+              else
+                res.json({its_true: false})
+            else
+              res.json({its_true: false})
+          else
+            res.json({its_true: false})
+        else
+          res.json({its_true: false})
+      else
+        res.json({its_true: false})
+    else
+      res.json({its_true: false})
