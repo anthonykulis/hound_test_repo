@@ -1,8 +1,19 @@
 // basic test file
 
+// colors
+$yellow: #ffff00;
+$blue: #0000ff;
+
 // broken on purpose!
+// div {
+//   border: 2px solid yellow;
+//   color: black;
+//   background-color: blue;
+// }
+
+// not broken\
 div {
-  border: 2px solid yellow;
-  color: black;
-  background-color: blue;
+  border: 2px solid $yellow;
+  color: #000000;
+  background-color: $blue;
 }

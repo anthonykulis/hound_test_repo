@@ -153,7 +153,7 @@ linters:
 
   SelectorDepth:
     enabled: true
-    max_depth: 2
+    max_depth: 1
 
   SelectorFormat:
     enabled: true
