@@ -11,3 +11,6 @@ module.exports =
 
   fails_arrow_spacing: () ->
     true
+
+  camelCaseTest: () ->
+    true
