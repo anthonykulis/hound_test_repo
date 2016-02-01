@@ -13,4 +13,4 @@ module.exports =
     true
 
   camelCaseTest: () ->
-    true
+    false
