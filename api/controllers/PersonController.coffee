@@ -9,5 +9,5 @@ module.exports =
   find: (req, res) ->
     res.json({tested: true})
 
-  fails_arrow_spacing:()->
+  fails_arrow_spacing: () ->
     true
