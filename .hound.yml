@@ -1,5 +1,9 @@
 scss:
   enabled: true
   config_file: config/hound/scss.yml
+
+coffeescript:
+  enabled: true
+  config_file: config/hound/coffeescript.yml
   
 fail_on_violations: true
