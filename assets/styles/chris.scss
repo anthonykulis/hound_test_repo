@@ -1,5 +1,7 @@
-span{
-  background-color: blue;
-  height: 80px;
+$chris_blue = #000ff;
+
+span {
+  background-color: $chris_blue;
   font-size: 12pt;
+  height: 80px;
 }
