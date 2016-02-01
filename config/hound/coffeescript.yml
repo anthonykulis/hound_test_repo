@@ -2,10 +2,11 @@
   "arrow_spacing": {
     "level": "error"
   },
-  "camel_case_classes": {
-    "level": "error"
+  "braces_spacing": {
+    "level": "error",
+    "spaces": 0
   },
-  "camel_case_methods": {
+  "camel_case_classes": {
     "level": "error"
   },
   "coffeescript_error": {
@@ -19,13 +20,19 @@
     }
   },
   "cyclomatic_complexity": {
-    "level": "ignore",
+    "level": "error",
     "value": 10
   },
   "duplicate_key": {
     "level": "error"
   },
   "empty_constructor_needs_parens": {
+    "level": "ignore"
+  },
+  "ensure_comprehensions": {
+    "level": "error"
+  },
+  "eol_last": {
     "level": "ignore"
   },
   "indentation": {
@@ -38,17 +45,17 @@
   },
   "max_line_length": {
     "level": "error",
-    "value": 300
+    "value": 80
   },
   "missing_fat_arrows": {
-    "level": "ignore"
+    "level": "error"
   },
   "newlines_after_classes": {
     "level": "error",
     "value": 1
   },
   "no_backticks": {
-    "level": "ignore"
+    "level": "error"
   },
   "no_debugger": {
     "level": "error"
@@ -68,13 +75,22 @@
   "no_interpolation_in_single_quotes": {
     "level": "error"
   },
+  "no_nested_string_interpolation": {
+    "level": "error"
+  },
   "no_plusplus": {
     "level": "ignore"
+  },
+  "no_private_function_fat_arrows": {
+    "level": "error"
   },
   "no_stand_alone_at": {
     "level": "error"
   },
   "no_tabs": {
+    "level": "error"
+  },
+  "no_this": {
     "level": "error"
   },
   "no_throwing_strings": {
@@ -84,18 +100,24 @@
     "level": "error"
   },
   "no_trailing_whitespace": {
-    "level": "error"
+    "level": "ignore"
   },
   "no_unnecessary_double_quotes": {
-    "level": "ignore"
+    "level": "error"
   },
   "no_unnecessary_fat_arrows": {
     "level": "error"
   },
   "non_empty_constructor_needs_parens": {
-    "level": "ignore"
+    "level": "error"
+  },
+  "prefer_english_operator": {
+    "level": "error"
   },
   "space_operators": {
-    "level": "ignore"
+    "level": "error"
+  }
+  "spacing_after_comma": {
+    "level": "error"
   }
 }
