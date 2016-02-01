@@ -5,7 +5,7 @@ PersonController
 @help        :: See http://links.sailsjs.org/docs/controllers
 ###
 
-module.exports = 
+module.exports =
   find: (req, res) ->
     res.json({tested: true})
 
