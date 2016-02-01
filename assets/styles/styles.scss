@@ -3,6 +3,7 @@
 // colors
 $yellow: #ffff00;
 $blue: #0000ff;
+$black: #000000;
 
 // broken on purpose!
 // div {
@@ -14,6 +15,6 @@ $blue: #0000ff;
 // not broken\
 div {
   border: 2px solid $yellow;
-  color: #000000;
+  color: $black;
   background-color: $blue;
 }
