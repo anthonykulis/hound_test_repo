@@ -5,6 +5,9 @@
   "camel_case_classes": {
     "level": "error"
   },
+  "camel_case_methods": {
+    "level": "error"
+  },
   "coffeescript_error": {
     "level": "error"
   },
