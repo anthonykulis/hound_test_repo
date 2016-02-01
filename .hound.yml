@@ -1,4 +1,4 @@
 scss:
   enabled: true
 
-# fail_on_violations: true
+fail_on_violations: true
