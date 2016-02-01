@@ -12,9 +12,10 @@ $black: #000000;
 //   background-color: blue;
 // }
 
-// not broken\
+// not broken
 div {
+  background-color: $blue;
   border: 2px solid $yellow;
   color: $black;
-  background-color: $blue;
+  
 }
